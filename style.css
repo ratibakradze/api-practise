@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+main .dict {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 50px;
+  place-items: center;
+}
+
+main .dict .top {
+  width: 30%;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+main .dict .top span:hover {
+  color: steelblue;
+  transition: 1s ease;
+}
+
+main .dict .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .dict .bottom .display {
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
